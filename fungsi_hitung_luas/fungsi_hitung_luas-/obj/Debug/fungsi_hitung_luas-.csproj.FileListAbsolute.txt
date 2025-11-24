@@ -1,0 +1,7 @@
+D:\dilaaaa\fungsi_hitung_luas-\fungsi_hitung_luas-\bin\Debug\fungsi_hitung_luas-.exe.config
+D:\dilaaaa\fungsi_hitung_luas-\fungsi_hitung_luas-\bin\Debug\fungsi_hitung_luas-.exe
+D:\dilaaaa\fungsi_hitung_luas-\fungsi_hitung_luas-\bin\Debug\fungsi_hitung_luas-.pdb
+D:\dilaaaa\fungsi_hitung_luas-\fungsi_hitung_luas-\obj\Debug\fungsi_hitung_luas-.csproj.AssemblyReference.cache
+D:\dilaaaa\fungsi_hitung_luas-\fungsi_hitung_luas-\obj\Debug\fungsi_hitung_luas-.csproj.CoreCompileInputs.cache
+D:\dilaaaa\fungsi_hitung_luas-\fungsi_hitung_luas-\obj\Debug\fungsi_hitung_luas-.exe
+D:\dilaaaa\fungsi_hitung_luas-\fungsi_hitung_luas-\obj\Debug\fungsi_hitung_luas-.pdb

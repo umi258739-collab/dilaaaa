@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fungsi_hitung_luas-", "fungsi_hitung_luas-\fungsi_hitung_luas-.csproj", "{67B61159-43B2-447A-ADD5-3D1F8B2EE842}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67B61159-43B2-447A-ADD5-3D1F8B2EE842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B61159-43B2-447A-ADD5-3D1F8B2EE842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B61159-43B2-447A-ADD5-3D1F8B2EE842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B61159-43B2-447A-ADD5-3D1F8B2EE842}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3F73FEC-279E-42A6-9B8E-4701EB73CFE3}
+	EndGlobalSection
+EndGlobal
