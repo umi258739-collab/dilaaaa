@@ -1,0 +1,8 @@
+D:\dilaaaa\Praktik_7.1_fungsi\Praktik_7.1_fungsi\bin\Debug\Praktik_7.1_fungsi.exe.config
+D:\dilaaaa\Praktik_7.1_fungsi\Praktik_7.1_fungsi\bin\Debug\Praktik_7.1_fungsi.exe
+D:\dilaaaa\Praktik_7.1_fungsi\Praktik_7.1_fungsi\bin\Debug\Praktik_7.1_fungsi.pdb
+D:\dilaaaa\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\Praktik_7.1_fungsi.csproj.AssemblyReference.cache
+D:\dilaaaa\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\Praktik_7.1_fungsi.csproj.CoreCompileInputs.cache
+D:\dilaaaa\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\Praktik_7.1_fungsi.exe
+D:\dilaaaa\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\Praktik_7.1_fungsi.pdb
+D:\dilaaaa\Praktik_7.1_fungsi\Praktik_7.1_fungsi\obj\Debug\Praktik_7.1_fungsi.exe.config
