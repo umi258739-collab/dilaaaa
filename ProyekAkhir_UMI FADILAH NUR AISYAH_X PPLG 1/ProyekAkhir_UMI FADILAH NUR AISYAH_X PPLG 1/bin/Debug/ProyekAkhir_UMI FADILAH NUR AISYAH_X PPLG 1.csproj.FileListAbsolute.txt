@@ -1,0 +1,8 @@
+D:\dilaaaa\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\bin\Debug\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1.exe.config
+D:\dilaaaa\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\bin\Debug\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1.exe
+D:\dilaaaa\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\bin\Debug\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1.pdb
+D:\dilaaaa\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\obj\Debug\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1.csproj.AssemblyReference.cache
+D:\dilaaaa\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\obj\Debug\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1.csproj.CoreCompileInputs.cache
+D:\dilaaaa\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\obj\Debug\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1.exe
+D:\dilaaaa\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\obj\Debug\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1.pdb
+D:\dilaaaa\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1\obj\Debug\ProyekAkhir_UMI FADILAH NUR AISYAH_X PPLG 1.exe.config
