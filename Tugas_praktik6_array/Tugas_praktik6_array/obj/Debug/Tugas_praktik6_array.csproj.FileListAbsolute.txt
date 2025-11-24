@@ -1,0 +1,8 @@
+D:\dilaaaa\Tugas_praktik6_array\Tugas_praktik6_array\bin\Debug\Tugas_praktik6_array.exe.config
+D:\dilaaaa\Tugas_praktik6_array\Tugas_praktik6_array\bin\Debug\Tugas_praktik6_array.exe
+D:\dilaaaa\Tugas_praktik6_array\Tugas_praktik6_array\bin\Debug\Tugas_praktik6_array.pdb
+D:\dilaaaa\Tugas_praktik6_array\Tugas_praktik6_array\obj\Debug\Tugas_praktik6_array.csproj.AssemblyReference.cache
+D:\dilaaaa\Tugas_praktik6_array\Tugas_praktik6_array\obj\Debug\Tugas_praktik6_array.csproj.CoreCompileInputs.cache
+D:\dilaaaa\Tugas_praktik6_array\Tugas_praktik6_array\obj\Debug\Tugas_praktik6_array.exe
+D:\dilaaaa\Tugas_praktik6_array\Tugas_praktik6_array\obj\Debug\Tugas_praktik6_array.pdb
+D:\dilaaaa\Tugas_praktik6_array\Tugas_praktik6_array\obj\Debug\Tugas_praktik6_array.exe.config
