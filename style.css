@@ -1,20 +1,30 @@
+/* UNIVERSAL SELECTOR */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* TAG SELECTOR */
 h1 {
-    font-family: Arial;
-    color: navy;
-    font-size: 36px;
+    color: blue;
     text-align: center;
 }
 
-h2 {
-    font-family: Verdana;
-    color: brown;
-    font-size: 28px;
-    text-align: left;
-}
-
-p {
-    font-family: Tahoma;
-    color: darkgreen;
+/* CLASS SELECTOR */
+.paragraf {
+    color: green;
     font-size: 18px;
     text-align: justify;
+}
+
+/* ID SELECTOR */
+#teks-khusus {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* TAG SELECTOR TAMBAHAN */
+div {
+    margin-top: 20px;
+    color: purple;
 }
