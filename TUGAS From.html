@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Formulir Pendaftaran SMK</title>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+    }
+    .wrapper{
+        width: 800px;
+        margin: auto;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    fieldset{
+        border: 2px solid black;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    legend{
+        font-weight: bold;
+        padding: 0 10px;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td{
+        padding: 6px;
+        vertical-align: top;
+    }
+    .text{
+        width: 100%;
+        height: 22px;
+        border: 1px solid black;
+    }
+    .nilai{
+        width: 70px;
+        height: 22px;
+        border: 1px solid black;
+    }
+    .alamat{
+        height: 60px;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="wrapper">
+
+<h2>FORMULIR PENDAFTARAN CALON SISWA BARU SMK</h2>
+
+<!-- BIODATA -->
+<fieldset>
+<legend>BIODATA SISWA</legend>
+<table>
+<tr>
+    <td width="35%">No. UN SMP/MTs/Sederajat</td>
+    <td width="65%"><input type="text" class="text"></td>
+</tr>
+<tr>
+    <td>Nama Lengkap</td>
+    <td><input type="text" class="text"></td>
+</tr>
+<tr>
+    <td>Jenis Kelamin</td>
+    <td>
+        <input type="radio" name="jk"> Laki-laki
+        <input type="radio" name="jk"> Perempuan
+    </td>
+</tr>
+<tr>
+    <td>Nama Orangtua/Wali</td>
+    <td><input type="text" class="text"></td>
+</tr>
+<tr>
+    <td>
+        Alamat <br>
+        <small>(sesuai KK/KTP/Surat Keterangan Domisili an. Ortu/Wali murid calon siswa)</small>
+    </td>
+    <td><input type="text" class="text alamat"></td>
+</tr>
+<tr>
+    <td>Kota/Kabupaten</td>
+    <td><input type="text" class="text"></td>
+</tr>
+<tr>
+    <td>Asal Sekolah</td>
+    <td><input type="text" class="text"></td>
+</tr>
+<tr>
+    <td>Agama</td>
+    <td>
+        <select>
+            <option>Islam</option>
+            <option>Kristen</option>
+            <option>Katolik</option>
+            <option>Hindu</option>
+            <option>Buddha</option>
+            <option>Konghucu</option>
+        </select>
+    </td>
+</tr>
+</table>
+</fieldset>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Penilaian PPDB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .box {
+            width: 600px;
+            border: 2px solid black;
+            padding: 15px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 5px;
+        }
+        input[type="number"] {
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h3>PENILAIAN</h3>
+
+    <b>NILAI UJIAN NASIONAL (NUN)</b>
+    <table>
+        <tr>
+            <td>1. Matematika</td>
+            <td><input type="number" id="mtk" oninput="hitung()"></td>
+        </tr>
+        <tr>
+            <td>2. Bahasa Indonesia</td>
+            <td><input type="number" id="indo" oninput="hitung()"></td>
+        </tr>
+        <tr>
+            <td>3. Bahasa Inggris</td>
+            <td><input type="number" id="ing" oninput="hitung()"></td>
+        </tr>
+        <tr>
+            <td>4. Ilmu Pengetahuan Alam (IPA)</td>
+            <td><input type="number" id="ipa" oninput="hitung()"></td>
+        </tr>
+        <tr>
+            <td><b>Jumlah NUN</b></td>
+            <td><input type="number" id="nun" readonly></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <b>NILAI BONUS PRESTASI (NBP)</b><br>
+    <input type="number" id="nbp" oninput="hitung()">
+
+    <br><br>
+
+    <b>JUMLAH TOTAL NILAI AKHIR PPDB</b><br>
+    <small>(Rumus : NUN + NBP)</small><br>
+    <input type="number" id="total" readonly>
+</div>
+
+<script>
+function hitung() {
+    let mtk  = Number(document.getElementById("mtk").value) || 0;
+    let indo = Number(document.getElementById("indo").value) || 0;
+    let ing  = Number(document.getElementById("ing").value) || 0;
+    let ipa  = Number(document.getElementById("ipa").value) || 0;
+    let nbp  = Number(document.getElementById("nbp").value) || 0;
+
+    let jumlahNUN = mtk + indo + ing + ipa;
+    let totalNilai = jumlahNUN + nbp;
+
+    document.getElementById("nun").value = jumlahNUN;
+    document.getElementById("total").value = totalNilai;
+}
+</script>
+
+</body>
+</html>
