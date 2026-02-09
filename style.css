@@ -1,0 +1,20 @@
+h1 {
+    font-family: Arial;
+    color: navy;
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana;
+    color: brown;
+    font-size: 28px;
+    text-align: left;
+}
+
+p {
+    font-family: Tahoma;
+    color: darkgreen;
+    font-size: 18px;
+    text-align: justify;
+}
