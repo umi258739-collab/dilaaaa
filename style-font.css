@@ -1,0 +1,48 @@
+body {
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Paragraf 1 */
+.p1 {
+    font-size: 20px;              /* pixel */
+    font-weight: 700;             /* bold */
+    font-style: normal;
+    font-family: Arial, sans-serif;
+}
+
+/* Paragraf 2 */
+.p2 {
+    font-size: 150%;              /* persen */
+    font-weight: 400;             /* normal */
+    font-style: italic;
+    font-family: "Times New Roman", serif;
+}
+
+/* Paragraf 3 */
+.p3 {
+    font-size: 1.5em;             /* em */
+    font-weight: 600;
+    font-style: oblique;
+    font-family: "Courier New", monospace;
+}
+
+/* Paragraf 4 */
+.p4 {
+    font-size: 2rem;              /* rem */
+    font-weight: 900;             /* sangat tebal */
+    font-style: normal;
+    font-family: Verdana, sans-serif;
+}
+
+/* Paragraf 5 */
+.p5 {
+    font-size: large;             /* keyword */
+    font-weight: 100;             /* sangat ringan */
+    font-style: italic;
+    font-family: Georgia, serif;
+}
