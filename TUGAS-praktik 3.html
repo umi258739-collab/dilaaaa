@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Modul 3 CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        /* TEXT ALIGN */
+        .left {
+            text-align: left;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .justify {
+            text-align: justify;
+        }
+
+        /* TEXT DECORATION */
+        .underline {
+            text-decoration: underline;
+        }
+
+        .overline {
+            text-decoration: overline;
+        }
+
+        .line-through {
+            text-decoration: line-through;
+        }
+
+        /* TEXT TRANSFORM */
+        .upper {
+            text-transform: uppercase;
+        }
+
+        .lower {
+            text-transform: lowercase;
+        }
+
+        .capitalize {
+            text-transform: capitalize;
+        }
+
+        /* TEXT SPACING */
+        .spacing {
+            letter-spacing: 4px;
+            word-spacing: 8px;
+        }
+
+        .indent {
+            text-indent: 40px;
+            line-height: 1.8;
+        }
+
+        .box {
+            background-color: rgba(255,255,255,0.1);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Contoh Modifikasi Text CSS</h1>
+
+    <div class="box left">
+        Ini adalah contoh paragraf rata kiri.
+    </div>
+
+    <div class="box center">
+        Ini adalah contoh paragraf rata tengah.
+    </div>
+
+    <div class="box right">
+        Ini adalah contoh paragraf rata kanan.
+    </div>
+
+    <div class="box justify indent">
+        Ini adalah contoh paragraf justify dengan indent di awal paragraf.
+        Text ini dibuat lebih panjang agar terlihat efek justify dan line height
+        yang lebih nyaman untuk dibaca.
+    </div>
+
+    <div class="box">
+        <span class="underline">Teks ini underline</span><br>
+        <span class="overline">Teks ini overline</span><br>
+        <span class="line-through">Teks ini dicoret</span>
+    </div>
+
+    <div class="box">
+        <p class="upper">ini contoh huruf uppercase</p>
+        <p class="lower">INI CONTOH HURUF LOWERCASE</p>
+        <p class="capitalize">ini contoh huruf capitalize setiap kata</p>
+    </div>
+
+    <div class="box spacing">
+        Ini adalah contoh teks dengan letter spacing dan word spacing yang diperlebar.
+    </div>
+
+</body>
+</html>
