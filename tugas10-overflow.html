@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tugas Overflow CSS</title>
+
+<style>
+article{
+    width: 300px;
+    height: 120px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.article1{
+    background-color: lightblue;
+    overflow: visible;
+}
+
+.article2{
+    background-color: lightgreen;
+    overflow: hidden;
+}
+
+.article3{
+    background-color: lightcoral;
+    overflow: scroll;
+}
+
+.article4{
+    background-color: lightyellow;
+    overflow: auto;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Contoh Penggunaan Overflow pada CSS</h1>
+
+<article class="article1">
+Overflow visible adalah nilai default dari properti overflow pada CSS. Ketika konten di dalam elemen lebih besar daripada ukuran kotaknya, maka konten tersebut tetap akan terlihat keluar dari batas kotak. Hal ini sering digunakan ketika kita tidak ingin menyembunyikan atau memotong isi konten yang ada di dalam sebuah elemen HTML.
+</article>
+
+<article class="article2">
+Overflow hidden digunakan ketika kita ingin menyembunyikan bagian konten yang melebihi ukuran kotak elemen. Jika teks atau elemen di dalamnya terlalu panjang, maka bagian yang keluar dari batas kotak tidak akan ditampilkan di layar. Teknik ini sering dipakai untuk menjaga tampilan layout agar tetap rapi.
+</article>
+
+<article class="article3">
+Overflow scroll akan menambahkan scrollbar pada elemen HTML baik secara vertikal maupun horizontal. Scrollbar ini akan tetap muncul walaupun kontennya sebenarnya tidak terlalu panjang. Dengan adanya scrollbar, pengguna dapat menggulir isi konten di dalam kotak untuk membaca seluruh informasi yang tersedia.
+</article>
+
+<article class="article4">
+Overflow auto bekerja hampir sama seperti scroll, tetapi scrollbar hanya akan muncul jika konten benar-benar melebihi ukuran kotak. Jika kontennya masih muat di dalam elemen, maka scrollbar tidak akan ditampilkan. Properti ini sangat sering digunakan karena tampilannya lebih rapi dan fleksibel.
+</article>
+
+</body>
+</html>
