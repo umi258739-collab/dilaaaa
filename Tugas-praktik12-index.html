@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Z-Index</title>
+    <style>
+        .container {
+            position: relative;
+            width: 500px;
+            height: 400px;
+        }
+
+        img {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+        }
+
+        .gambar1 {
+            top: 50px;
+            left: 100px;
+            z-index: 3; /* paling depan */
+        }
+
+        .gambar2 {
+            top: 80px;
+            left: 150px;
+            z-index: 2; /* tengah */
+        }
+
+        .gambar3 {
+            top: 110px;
+            left: 200px;
+            z-index: 1; /* paling belakang */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Contoh Z-Index</h2>
+
+    <div class="container">
+        <img src="https://picsum.photos/200?1" class="gambar1">
+        <img src="https://picsum.photos/200?2" class="gambar2">
+        <img src="https://picsum.photos/200?3" class="gambar3">
+    </div>
+
+</body>
+</html>
