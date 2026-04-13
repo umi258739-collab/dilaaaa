@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Absolute - Tugas 2</title>
+    <style>
+        .container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background-color: lightgray;
+        }
+
+        .box {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            color: white;
+            text-align: center;
+            line-height: 80px;
+        }
+
+        .box1 {
+            bottom: 0;
+            right: 0;
+            background: coral;
+        }
+
+        .box2 {
+            top: 0;
+            left: 0;
+            background: blue;
+        }
+
+        .box3 {
+            top: 0;
+            right: 0;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+    </div>
+</body>
+</html>
